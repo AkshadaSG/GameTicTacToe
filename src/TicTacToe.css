@@ -1,0 +1,57 @@
+* {background-color: black}
+
+.tic-tac-toe {
+  text-align: center;
+  margin-top: 20px;
+  margin-top: 200px;
+}
+
+.board {
+  display: inline-block;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+}
+
+.cell {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 120px;
+  height: 120px;
+  border: 1px solid #aaa;
+  cursor: pointer;
+  font-size: 75px;
+}
+
+.X {
+  color: #fff;
+  font-weight: 700;
+}
+
+.O {
+  color: #fff;
+  font-weight: 700;
+}
+
+.status {
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+.reset-btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #333;
+  color: #fff;
+  cursor: pointer;
+  font-family: sans-serif;
+  font-size: 24px;
+}
